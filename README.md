@@ -1,5 +1,5 @@
 # phone-info
-apt update
+\n apt update
 apt upgrade
 apt install git
 apt install python 
