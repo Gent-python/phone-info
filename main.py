@@ -14,8 +14,6 @@ import os
 
 os.system('clear')
 
-Licens = input('\033[31mEnter your license \033[32m >>>')
-
 print('\n        \033[33mGit hub \033[36m: \033[35mgent_python')
 time.sleep(1)
 print('\n        \033[33mInstagram \033[36m: \033[35mgent_python')
@@ -23,6 +21,8 @@ time.sleep(1)
 print('\n        \033[33mTelegram \033[36m: \033[35mgent_python')
 time.sleep(1)
 print('\n        \033[91mcreat by \033[36m: \033[34mMr Sadeghi\n\n\n')
+
+Licens = input('\033[31mEnter your license \033[32m >>>')
 num = input('\033[93menter the phone number \033[0m(09*********)\033[91m>>> \033[97m')
 
 req = requests.get(f'https://api3.haji-api.ir/majid/tools/number/book?phone={num}&license={Licens}').json()['result'][0]
